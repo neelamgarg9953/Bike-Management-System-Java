@@ -1,26 +1,25 @@
 # 🚲 Bike Management System
 
-A Java Swing desktop application developed for managing bike bookings, users, brands, and payments. The application uses JDBC to connect with a MySQL database and provides separate modules for Admin and Users.
+A desktop-based Bike Management System developed using **Java Swing**, **JDBC**, and **MySQL**. The application allows administrators to manage bikes, brands, users, bookings, and payments through a user-friendly graphical interface.
 
 ---
 
 ## 📌 Features
 
-- Admin Login
-- User Registration & Login
-- Add New Bike
-- Add New Brand
-- View Bikes
-- View Users
-- Update User Details
-- Bike Booking
-- Payment Module
-- Bill Generation
-- MySQL Database Integration
+- 🔐 Admin Login
+- 👤 User Registration & Login
+- 🚲 Add New Bike
+- 🏷️ Add & Manage Bike Brands
+- 📋 View Bikes and Users
+- ✏️ Update User Details
+- 🛒 Bike Booking
+- 💳 Payment Management
+- 🧾 Bill Generation
+- 🗄️ MySQL Database Integration
 
 ---
 
-## 🛠 Technologies Used
+## 🛠️ Technologies Used
 
 - Java
 - Java Swing
@@ -33,7 +32,7 @@ A Java Swing desktop application developed for managing bike bookings, users, br
 
 ## 📂 Project Structure
 
-```
+```text
 Bike Management System/
 │
 ├── src/
@@ -48,64 +47,52 @@ Bike Management System/
 
 ---
 
-## ⚙️ Software Requirements
+## 💾 Database
 
-- Java JDK 8 or above
-- NetBeans IDE
-- MySQL Server
-- MySQL Connector/J
+**Database Name:**
 
----
-
-## 🗄 Database
-
-Database Name:
-
-```
+```text
 bikemanagement
 ```
 
-Import the SQL file available in the **Database** folder before running the project.
+Import the SQL file available in the `Database` folder before running the project.
 
 ---
 
 ## ▶️ How to Run
 
-1. Clone the repository.
-2. Open the project in NetBeans.
+1. Clone this repository.
+2. Open the project in NetBeans IDE.
 3. Import `Database/bikemanagement.sql` into MySQL.
-4. Update database username and password in `ConnectionClass.java`.
+4. Update the database username and password in `ConnectionClass.java`.
 5. Add MySQL Connector/J library.
 6. Run the project.
 
 ---
 
-## 🔐 Default Admin Login
+## 🔑 Default Admin Login
 
-Username:
+**Username**
 
-```
+```text
 admin
 ```
 
-Password:
+**Password**
 
-```
+```text
 admin
 ```
 
 ---
 
-## 📷 Screenshots
+## 🎓 Academic Information
 
-(Add screenshots here)
+This project was developed as a **Bachelor of Computer Applications (BCA)** academic project.
 
-- Login
-- User Registration
-- Admin Dashboard
-- Add Bike
-- Booking
-- Payment
+**College:** Hierank Business School
+
+**University:** Chaudhary Charan Singh University (CCSU)
 
 ---
 
@@ -113,9 +100,10 @@ admin
 
 **Neelam Garg**
 
-MCA Student  
-ABES Institute of Technology (ABESIT)  
-Dr. A.P.J. Abdul Kalam Technical University (AKTU)
+Bachelor of Computer Applications (BCA)
 
-GitHub:
-https://github.com/neelamgarg9953
+Hierank Business School
+
+Chaudhary Charan Singh University (CCSU)
+
+🔗 GitHub: https://github.com/neelamgarg9953
